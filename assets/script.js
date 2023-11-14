@@ -1,10 +1,8 @@
 
 
-var cardDisplay = $("#bottomDisplay"); // base element for creating the cards
-
+var cardDisplay = document.getElementById('bottomDisplay');// base element for creating the cards
 var userCity = [];  //empty; will be filled by a modified user response 
-
-var searchButton = $('<button>');
+var searchButton = document.getElementById('buttonSearch');
 
 // %20 to indicate whitespace in the api call for city names with multiple words
 
