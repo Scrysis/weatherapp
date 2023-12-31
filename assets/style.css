@@ -46,10 +46,17 @@ button {
     flex-wrap: wrap;
 }
 
-/* CSS for card */
-.weatherCard {
+/* CSS for small cards */
+.littleCard {
     background-color: #191e2e;
     color:var(--lightText);
+    width: 300 px;
+    height: 500 px;
+}
+
+.weatherListStyle{
+    list-style: none;
+    text-align: center;
 }
 
 input[type='text'] {
